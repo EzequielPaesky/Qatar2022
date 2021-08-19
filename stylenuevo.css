@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header img{
+    height: 150px;
+}
+
+.li1{
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.li2{
+    
+    list-style-type: none;
+    text-align: center;
+    height: 50px;
+}
+
+.li3{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.li4{
+    list-style-type: none;
+    height: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.li5{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 85px;
+    margin-top: 35px
+}
+
+.li6{
+    text-align: center;
+    margin-bottom: 12px;
+    list-style-type: none;
+}
+
+h1{
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+    margin-left: 150px;
+    font-family:'Satisfy', cursive;
+       
+}
+
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(121, 53, 98);
+    background-repeat:no-repeat;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    align-content:space-around;
+    height: 15%;
+    background-image: linear-gradient(to right, rgb(5, 2, 4), rgb(196, 14, 171), black);
+    border-radius: 1em;
+    margin:1em;
+    
+
+    }
+
+
+#nav{
+    height: 13%;
+    background: black;
+    border-radius: 1em;
+    margin-left: 1em;
+    display: flex;
+    list-style-type: none;
+}
+
+#contenido{
+    height: 53%;
+    margin: 1em;
+    
+}
+
+#footer{
+    height: 10%;
+    background: black;
+    border-radius: 1em;
+    margin: 1em;
+    
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width:  71%;
+    background-color: rgb(95, 33, 59);
+    float: left;
+    border-radius: 1em;
+    
+}
+
+#aside{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    height: 95%;
+    width: 25%;
+    background-color:gray;
+    margin: 0.5em;
+    
+}
+
+.artículo{
+    font-size: 25px;
+    width: 96%;
+    height: 18%;
+    background-color: gray;
+    margin: 1em;
+    border-radius: 1em;
+    text-align: center;
+    align-self: center;
+    font-family: 'Satisfy', cursive;
+    align-content: stretch;
+}
+
+.artículo1{
+    height: 25%;
+}
+
+.textArticle{
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    align-content: stretch;
+
+}
+
+.artículoConmebol{
+    width: 96%;
+    height: 20%;
+    background-color: black;
+    margin: 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+
+
+.imgArticle{
+    margin: 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    height: 65%;
+    width: 90px;
+    transition: 1s;
+}
+
+.imgArticle:hover{
+    transform: scale(2);
+}
+
+.padre-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: inline;
+    align-content: center;
+}
+
+.li{
+    margin-left: 50px;
+    margin-right: 5px;
+    align-content:center;    
+    list-style-type: none;
+    float: left;
+    border: outset rgb(180, 176, 176);
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#nav a{
+    display: flex;
+    margin: 2px; 
+    flex-direction: row;
+    color: rgb(236, 92, 217);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.container{
+    border: solid;
+    color: gray;
+    align-self: center;
+    margin-top: 8%;
+    
+}
+
+.col-2{
+    border: solid;
+    font-size: 100%;
+}
+.col-4{
+    border: solid;
+    font-size: 150%;
+
+}
+
+.col-6{
+    font-size: 150%;
+    border: solid;
+    justify-content: center;
+}
+
+h2{
+color: wheat;
+align-self: center;
+
+
+}

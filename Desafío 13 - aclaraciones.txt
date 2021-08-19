@@ -1,0 +1,40 @@
+					DESAFÍO ENTREGABLE N° 13 "APLICAR SEO A NUESTRA PÁGINA"
+
+Cambios realizados: modifiqué los titulos. Anteriormente, todos estaban nombrados "Camino a Qatar" y actualmente los tengo colocados como "Eliminatorias Qatar 2022" y cada sección.
+
+Index - Inicio: 
+
+<meta name= "description" content= "Concacaf, Conmebol, Asia, África, Uefa">
+    <meta name= "keywords" content= "Eliminatorias, Qatar, 2022">
+
+Conmebol: 
+
+   <meta name= "description" content= "Concacaf, Conmebol, Asia, África, Uefa">
+    <meta name= "keywords" content= "Eliminatorias, Qatar, 2022">
+
+Uefa: 
+
+<meta name= "description" content="Eliminatorias, mundial">
+    <meta name= "keywords" content="Qatar, Uefa, Ranking, 2022">
+
+Concacaf:
+
+ <meta name= "description" content="Fútbol, mundial, eliminatorias">
+    <meta name= "keywords" content="Qatar, 2022, confederación">
+
+África:
+
+ <meta name= "description" content="Fútbol, eliminatorias, mundial">
+    <meta name= "keywords" content="Qatar, 2022, África, confederación">
+
+Asia:
+
+<meta name= "description" content="Eliminatorias, campeonato mundial">
+    <meta name= "keywords" content= "Asia, confederación, Qatar, 2022">
+
+Oceanía:
+
+<meta name= "description" content="Copa del mundo, Eliminatorias">
+    <meta name= "keywords" content= "Qatar, Oceanía, 2022">
+
+

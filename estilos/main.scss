@@ -1,3 +1,8 @@
+@import"./partials/_variables";
+@import"./partials/_nav";
+@import"./partials/_alturas-margenes-bordes";
+@import"./partials/_fuentes";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,50 +11,60 @@
     height: 150px;
 }
 
+ul{
+    list-style-type: none;
+    
+    li{
+        text-align: center;
+
 .li1{
     height: 70px;
     margin-top: 20px;
     margin-bottom: 5px;
-    list-style-type: none;
-    text-align: center;
-}
+    
 
 .li2{
     
-    list-style-type: none;
-    text-align: center;
-    height: 50px;
-}
+    height: $principal;
+
 
 .li3{
-    list-style-type: none;
-    text-align: center;
+    
     margin-top: 40px;
-}
+
 
 .li4{
-    list-style-type: none;
-    height: 50px;
-    text-align: center;
+    
+    height: $principal;
     margin-top: 25px;
-}
+
 
 .li5{
-    list-style-type: none;
-    text-align: center;
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
     margin-left: 85px;
-    margin-top: 35px
-}
+    margin-top: 35px;
+
 
 .li6{
-    text-align: center;
     margin-bottom: 12px;
     list-style-type: none;
-}
+                            }
 
+                         } 
+
+                    }    
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
 h1{
     color: blanchedalmond;
     font-size: 40px;
@@ -61,9 +76,9 @@ h1{
 }
 
 #contenedor{
-    width: 100%;
+    width: 1200px;
     height: 1000px;
-    background-color: rgb(121, 53, 98);
+    background-color: $colordefondo;
     background-repeat:no-repeat;
     margin: 0.5em auto;
     padding: 0.5em;
@@ -76,79 +91,67 @@ h1{
     align-content:space-around;
     height: 15%;
     background-image: linear-gradient(to right, rgb(5, 2, 4), rgb(196, 14, 171), black);
-    border-radius: 1em;
-    margin:1em;
+    border-radius: $secundario;
+    margin: $secundario;
     
 
     }
 
 
 #nav{
-    height: 13%;
-    background: black;
-    border-radius: 1em;
-    margin-left: 1em;
+    height: $alturanav;
+    background: $colorsecundario;
+    border-radius: $borde-margen;
+    margin-left: $borde-margen;
     display: flex;
     list-style-type: none;
 }
 
 #contenido{
     height: 53%;
-    margin: 1em;
+    margin: $secundario;
     
 }
 
 #footer{
     height: 10%;
-    background: black;
-    border-radius: 1em;
-    margin: 1em;
+    background: $colorsecundario;
+    border-radius: $secundario;
+    margin: $secundario;
     
 }
 
 #section{
     display: flex;
-
-  flex-direction: column;
-
-  height: 95%;
-
-  width: 71%;
-
-  background-color: rgb(95, 33, 59);
-
-  float: left;
-
-  border-radius: 1em;
+    flex-direction: column;
+    height: $terciario;
+    width:  71%;
+    background-color: rgb(95, 33, 59);
+    float: left;
+    border-radius: $secundario;
+    
 }
 
 #aside{
     display: flex;
-
     float: right;
-  
     flex-direction: column;
-  
-    height: 95%;
-  
+    height: $terciario;
     width: 25%;
-  
-    background-color:gray;
-  
+    background-color: $colorterciario;
     margin: 0.5em;
     
 }
 
 .artículo{
-    font-size: 25px;
     width: 96%;
     height: 18%;
-    background-color: gray;
-    margin: 1em;
-    border-radius: 1em;
+    background-color: $colorterciario;
+    margin: $secundario;
+    border-radius: $secundario;
     text-align: center;
     align-self: center;
-    font-family: 'Satisfy', cursive;
+    font-family: $fuenteprincipal;
     align-content: stretch;
 }
 
@@ -158,7 +161,7 @@ h1{
 
 .textArticle{
     font-size: 30px;
-    font-family: 'Satisfy', cursive;
+    font-family: $fuenteprincipal;
     align-content: stretch;
 
 }
@@ -166,9 +169,9 @@ h1{
 .artículoConmebol{
     width: 96%;
     height: 20%;
-    background-color: black;
-    margin: 1em;
-    border-radius: 1em;
+    background-color: $colorsecundario;
+    margin: $secundario;
+    border-radius: $secundario;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
@@ -177,12 +180,12 @@ h1{
 
 
 .imgArticle{
-    margin: 1em;
-    border-radius: 1em;
+    margin: $secundario;
+    border-radius: $secundario;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
-    height: 65%;
+    height: 65px;
     width: 90px;
     transition: 1s;
 }
@@ -207,7 +210,7 @@ h1{
     float: left;
     border: outset rgb(180, 176, 176);
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: $principal;
 }
 
 #nav a{
@@ -220,32 +223,53 @@ h1{
 }
 
 .container{
-    border: solid;
-    color: gray;
+    border: $borde-tipo;
+    color: $colorterciario;
     align-self: center;
     margin-top: 8%;
     
 }
 
 .col-2{
-    border: solid;
+    border: $borde-tipo;
     font-size: 100%;
 }
 .col-4{
-    border: solid;
+    border: $borde-tipo;
     font-size: 150%;
 
 }
 
 .col-6{
-    font-size: 150%;
-    border: solid;
-    justify-content: center;
+    border: $borde-tipo;
 }
 
-h2{
-color: wheat;
-align-self: center;
+/* Clase 12 */ 
 
+$goleador: Messi; /* Constante */
+p {
+    @if $goleador == Suarez {
+        color: skyblue;
+}   @else if $goleador == Neymar {
+        color: wheat;
+}   @else if $goleador == Sánchez {
+    color: purple; 
+}
+    @else {
+        color: pink;
+}
 
 }
+
+/* Ejercicio del FOR */
+
+@for $i from 1 through 3 {
+    .casigol-#{$i} {width: 3em * $i;}
+}
+
+/* Ejercicio "to" */
+
+@for $i from 2 to 4 {
+    .miasistencia-#{$i} {width: (4em * $i); }
+}
+

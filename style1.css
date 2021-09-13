@@ -61,7 +61,7 @@ h1{
 }
 
 #contenedor{
-    width: 100%;
+    width: 1200px;
     height: 1000px;
     background-color: rgb(121, 53, 98);
     background-repeat:no-repeat;
@@ -108,39 +108,27 @@ h1{
 
 #section{
     display: flex;
-
-  flex-direction: column;
-
-  height: 95%;
-
-  width: 71%;
-
-  background-color: rgb(95, 33, 59);
-
-  float: left;
-
-  border-radius: 1em;
+    flex-direction: column;
+    height: 95%;
+    width:  71%;
+    background-color: rgb(95, 33, 59);
+    float: left;
+    border-radius: 1em;
+    
 }
 
 #aside{
     display: flex;
-
     float: right;
-  
     flex-direction: column;
-  
     height: 95%;
-  
     width: 25%;
-  
     background-color:gray;
-  
     margin: 0.5em;
     
 }
 
 .artículo{
-    font-size: 25px;
     width: 96%;
     height: 18%;
     background-color: gray;
@@ -182,7 +170,7 @@ h1{
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
-    height: 65%;
+    height: 65px;
     width: 90px;
     transition: 1s;
 }
@@ -238,9 +226,7 @@ h1{
 }
 
 .col-6{
-    font-size: 150%;
     border: solid;
-    justify-content: center;
 }
 
 h2{
